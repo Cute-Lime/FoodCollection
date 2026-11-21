@@ -3,10 +3,10 @@
   <p>
     <img src="https://img.shields.io/badge/Swift-5.0+-orange.svg?logo=swift&logoColor=white&style=flat-square" alt="Swift" />
     <img src="https://img.shields.io/badge/iOS-18.0+-blue.svg?logo=apple&logoColor=white&style=flat-square" alt="iOS" />
-    <img src="https://img.shields.io/badge/作業-結合各種輸入元件&顯示alert的SwiftU_APP-purple.svg?style=flat-square" alt="Homework" />
+    <img src="https://img.shields.io/badge/作業-結合各種輸入元件&顯示alert的SwiftUI_APP-purple.svg?style=flat-square" alt="Homework" />
   </p>
   <p><b>一個用 SwiftUI 輸入元件打造的美食收藏 App：記錄每一間吃過的餐廳，還能換上自己喜歡的主題色 🍜🍰☕</b></p>
-  <p>👉 <a href="">查看 Medium 報告</a></p>
+  <p>👉 <a href="https://medium.com/@peterabc219/d6b3cd82c895">查看 Medium 報告</a></p>
 </div>
 
 ---
@@ -61,4 +61,4 @@
 - 導覽：`NavigationStack` 搭配 `navigationDestination(item:)`，用同一個表單頁處理新增與編輯。
 - 動畫與 SF Symbol 動畫：`withAnimation`、`transition`、`symbolEffect`
 
-📖 **Medium 文章連結：** 👉 [[點此閱讀完整心得報告]]()
+📖 **Medium 文章連結：** 👉 [[點此閱讀完整心得報告]](https://medium.com/@peterabc219/d6b3cd82c895)
