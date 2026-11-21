@@ -6,8 +6,15 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8E4AE9EF30B15CE10082C903 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E4AE9EE30B15CE10082C903 /* README.md */; };
+		8E4AE9F130B163B70082C903 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E4AE9F030B163B70082C903 /* Screenshot.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8E4AE9A830AD48D40082C903 /* FoodCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4AE9EE30B15CE10082C903 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E4AE9F030B163B70082C903 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -31,6 +38,8 @@
 			isa = PBXGroup;
 			children = (
 				8E4AE9AA30AD48D40082C903 /* FoodCollection */,
+				8E4AE9EE30B15CE10082C903 /* README.md */,
+				8E4AE9F030B163B70082C903 /* Screenshot.png */,
 				8E4AE9A930AD48D40082C903 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +85,7 @@
 				TargetAttributes = {
 					8E4AE9A730AD48D40082C903 = {
 						CreatedOnToolsVersion = 27.0;
+						LastSwiftMigration = 2700;
 					};
 				};
 			};
@@ -102,6 +112,8 @@
 		8E4AE9A630AD48D40082C903 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				8E4AE9F130B163B70082C903 /* Screenshot.png in Resources */,
+				8E4AE9EF30B15CE10082C903 /* README.md in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -241,11 +253,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PR6LZ2A37Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "美食收藏";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -262,6 +276,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -273,11 +288,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PR6LZ2A37Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "美食收藏";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
